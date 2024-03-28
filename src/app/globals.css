@@ -58,14 +58,6 @@
     @apply border-none bg-dark-3 text-base-regular text-light-4 outline-none !important;
   }
 
-  .bottombar_container {
-    @apply flex items-center justify-between gap-3 xs:gap-5;
-  }
-
-  .bottombar_link {
-    @apply relative flex flex-col items-center gap-2 rounded-lg p-2 sm:flex-1 sm:px-2 sm:py-2.5;
-  }
-
   .pagination {
     @apply mt-10 flex w-full items-center justify-center gap-5;
   }
