@@ -1,8 +1,8 @@
 import React from "react";
-import TopBar from "./components/TopBar";
-import LeftSideBar from "./components/LeftSideBar";
-import RightSideBar from "./components/RightSideBar";
-import BottomBar from "./components/BottomBar";
+import TopBar from "./components/top-bar/TopBar";
+import LeftSideBar from "./components/left-sidebar/LeftSideBar";
+import BottomBar from "./components/bottom-bar/BottomBar";
+import RightSideBar from "./components/right-sidebar/RightSideBar";
 
 function RootLayoutWrapper({
   children,
@@ -12,7 +12,7 @@ function RootLayoutWrapper({
   return (
     <>
       <TopBar />
-      <main>
+      <main className="flex flex-row">
         <LeftSideBar />
         <section className="main-container">
           <div className="w-full max-w-4xl">{children}</div>
