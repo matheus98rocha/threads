@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { usePathname, useRouter } from "next/navigation";
-import SignOutButton from "@/components/sign-out-button/SignOutButton";
+import SignOutButton from "@/components/buttons/sign-out-button/SignOutButton";
 
 function LeftSideBar() {
   const router = useRouter();
