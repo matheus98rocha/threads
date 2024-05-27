@@ -7,7 +7,6 @@ import { usePathname, useRouter } from "next/navigation";
 import SignOutButton from "@/components/buttons/sign-out-button/SignOutButton";
 
 function LeftSideBar() {
-  const router = useRouter();
   const pathname = usePathname();
 
   return (
